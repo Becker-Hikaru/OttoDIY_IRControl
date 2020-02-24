@@ -3,12 +3,11 @@ Arduino Nanoを使ったオープンソースロボットOtto DIYにDFRobotの�
 ## 使用パーツ
 1. Otto DIY（[公式](https://www.ottodiy.com/)）
 2. DFRobot IR Kit for Arduino（[秋月電子通商](http://akizukidenshi.com/catalog/g/gM-07042/), [メーカー公式](https://wiki.dfrobot.com/IR_Kit_SKU_DFR0107_)）
-## 割り当て
-| Button | MODE\: 0 | MODE\: 1 | MODE\:2 |
-|   | sing function | move function | play Gesture function |
-| ---- | ---- | ---- | ---- |
+## ボタンの割り当て
+| Button | MODE\: 0<br>sing function | MODE\: 1<br>move function | MODE\:2<br>playGesture function |
+| --- | --- | --- | --- |
 | POWER | Otto.home(); |
-| VOL- |   |
+| VOL- |
 | FUNC/STOP | Change Function Mode (Otto.sing(S_mode1); / Otto.sing(S_mode2); / Otto.sing(S_mode3); |
 | \|<< | Otto.sing(S_cuddy); | Otto.turn(2, 1000, 1); | Otto.playGesture(OttoHappy); |
 | >\|\|	| Otto.sing(S_OhOoh);	| Otto.turn(2, 1000, -1);	| Otto.playGesture(OttoSuperHappy); |
@@ -23,8 +22,8 @@ Arduino Nanoを使ったオープンソースロボットOtto DIYにDFRobotの�
 | 2	| Otto.sing(S_happy_short); | Otto.flapping(2, 1000, 20, 1); | Otto.playGesture(OttoWave); |
 | 3	| Otto.sing(S_superHappy); | Otto.flapping(2, 1000, 20, -1); | Otto.playGesture(OttoMagic); |
 | 4	| Otto.sing(S_sad); | Otto.swing(2, 1000, 20); | Otto.playGesture(OttoFail); |
-| 5	| Otto.sing(S_confused); | Otto.tiptoeSwing(2, 1000, 20); |   |
-| 6 | Otto.sing(S_connection); | Otto.jitter(2, 1000, 20); |   |
-| 7 | Otto.sing(S_disconnection); | Otto.updown(2, 1500, 20); |   |
-| 8	| Otto.walk(2, 1000, 1); | Otto.ascendingTurn(2, 1000, 50); |   |	
-| 9 |	Otto.walk(2, 1000, -1); | Otto.jump(1, 2000); |   |
+| 5	| Otto.sing(S_confused); | Otto.tiptoeSwing(2, 1000, 20); |
+| 6 | Otto.sing(S_connection); | Otto.jitter(2, 1000, 20); |
+| 7 | Otto.sing(S_disconnection); | Otto.updown(2, 1500, 20); |
+| 8	| Otto.walk(2, 1000, 1); | Otto.ascendingTurn(2, 1000, 50); |	
+| 9 |	Otto.walk(2, 1000, -1); | Otto.jump(1, 2000); |
