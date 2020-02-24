@@ -20,7 +20,7 @@ Arduino Nanoを使ったオープンソースロボットOtto DIYにDFRobotの�
       <td colspan="3"></td>
   </tr>
   <tr>
-      <td>FUNC/STOP</td>
+      <td>FUNC / STOP</td>
       <td colspan="3">Change Function Mode (Otto.sing(S_mode1); / Otto.sing(S_mode2); / Otto.sing(S_mode3);</td>
   </tr>
   <tr>
@@ -71,49 +71,64 @@ Arduino Nanoを使ったオープンソースロボットOtto DIYにDFRobotの�
     <td>Otto.moonwalker(3, 1000, 25, -1);</td>
     <td>Otto.playGesture(OttoLove);</td>
   </tr>
-ST/REPT
-Otto.sing(S_fart3);
-Otto.crusaito(2, 1000, 20, 1);
-Otto.playGesture(OttoConfused);
-
-1
-Otto.sing(S_happy);
-Otto.crusaito(2, 1000, 20, -1);
-Otto.playGesture(OttoFart);
-
-2
-Otto.sing(S_happy_short);
-Otto.flapping(2, 1000, 20, 1);
-Otto.playGesture(OttoWave);
-
-3
-Otto.sing(S_superHappy);
-Otto.flapping(2, 1000, 20, -1);
-Otto.playGesture(OttoMagic);
-
-4
-Otto.sing(S_sad);
-Otto.swing(2, 1000, 20);
-Otto.playGesture(OttoFail);
-
-5
-Otto.sing(S_confused);
-Otto.tiptoeSwing(2, 1000, 20);
-
-6
-Otto.sing(S_connection);
-Otto.jitter(2, 1000, 20);
-
-7
-Otto.sing(S_disconnection);
-Otto.updown(2, 1500, 20);
-
-8
-Otto.walk(2, 1000, 1);
-Otto.ascendingTurn(2, 1000, 50);	
-
-9
-Otto.walk(2, 1000, -1);
-Otto.jump(1, 2000);
-
+  <tr>
+    <td>ST / REPT</td>
+    <td>Otto.sing(S_fart3);</td>
+    <td>Otto.crusaito(2, 1000, 20, 1);</td>
+    <td>Otto.playGesture(OttoConfused);</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Otto.sing(S_happy);</td>
+    <td>Otto.crusaito(2, 1000, 20, -1);</td>
+    <td>Otto.playGesture(OttoFart);</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Otto.sing(S_happy_short);</td>
+    <td>Otto.flapping(2, 1000, 20, 1);</td>
+    <td>Otto.playGesture(OttoWave);</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Otto.sing(S_superHappy);</td>
+    <td>Otto.flapping(2, 1000, 20, -1);</td>
+    <td>Otto.playGesture(OttoMagic);</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Otto.sing(S_sad);</td>
+    <td>Otto.swing(2, 1000, 20);</td>
+    <td>Otto.playGesture(OttoFail);</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Otto.sing(S_confused);</td>
+    <td>Otto.tiptoeSwing(2, 1000, 20);</td>
+    <td></td>
+  <tr>
+  <tr>
+    <td>6</td>
+    <td>Otto.sing(S_connection);</td>
+    <td>Otto.jitter(2, 1000, 20);</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Otto.sing(S_disconnection);</td>
+    <td>Otto.updown(2, 1500, 20);</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Otto.walk(2, 1000, 1);<br>* move function</td>
+    <td>Otto.ascendingTurn(2, 1000, 50);</td>
+    <td></td>	
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Otto.walk(2, 1000, -1);<br>* move function</td>
+    <td>Otto.jump(1, 2000);</td>
+    <td></td>
+  </tr>
 </table>
