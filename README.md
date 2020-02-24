@@ -4,6 +4,7 @@ Arduino Nanoを使ったオープンソースロボットOtto DIYにDFRobotの�
 1. Otto DIY（[公式](https://www.ottodiy.com/)）
 2. DFRobot IR Kit for Arduino（[秋月電子通商](http://akizukidenshi.com/catalog/g/gM-07042/), [メーカー公式](https://wiki.dfrobot.com/IR_Kit_SKU_DFR0107_)）
 ## ボタンの割り当て
+赤外線リモコンのボタンの割り当ては、表のとおりです。
 <table border="1">
   <tr>
       <th>Button</th>
