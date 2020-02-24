@@ -6,8 +6,8 @@ Arduino Nanoを使ったオープンソースロボットOtto DIYにDFRobotの�
 ## ボタンの割り当て
 | Button | MODE\: 0<br>sing function | MODE\: 1<br>move function | MODE\:2<br>playGesture function |
 | --- | --- | --- | --- |
-| POWER | Otto.home();
-| VOL- |
+<tr><td>POWER<\td><td>Otto.home();</td></tr>
+  <tr><td>VOL-</td><td></td></tr>
 | FUNC / STOP | Change Function Mode (Otto.sing(S_mode1); / Otto.sing(S_mode2); / Otto.sing(S_mode3);
 | \|<< | Otto.sing(S_cuddy); | Otto.turn(2, 1000, 1); | Otto.playGesture(OttoHappy); |
 | >\|\|	| Otto.sing(S_OhOoh);	| Otto.turn(2, 1000, -1);	| Otto.playGesture(OttoSuperHappy); |
